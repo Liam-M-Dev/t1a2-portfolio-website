@@ -37,3 +37,41 @@
     }
   }
 }
+
+
+@media screen and (min-width: 500px) {
+
+  .header{
+    height: 150px;
+    .header-logo{
+      img{
+        width: 150px;
+        height: 150px;
+      }
+    }
+  }
+  
+  .nav {
+    ul{
+      a{
+        li{
+          margin-right: 16px;
+          font-size: 1.6em;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .nav {
+    ul{
+      a{
+        li{
+          margin-right: 32px;
+          font-size: 2em;
+        }
+      }
+    }
+  }
+}
