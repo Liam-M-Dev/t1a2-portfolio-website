@@ -2,9 +2,19 @@
 @import './defaults/_reset';
 @import './defaults/_colors';
 
+
 //header component
 @import './components/_header';
 
 
-// 
+//footer component
 @import './components/_footer';
+
+body {
+  @include flex-col;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}

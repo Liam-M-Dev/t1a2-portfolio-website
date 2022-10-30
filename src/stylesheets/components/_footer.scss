@@ -1,7 +1,7 @@
 @import '../defaults/_colors';
 @import '../defaults/_link-decorations';
 @import '../defaults/_layout';
-
+@import '../defaults/_text';
 
 
 .footer {
@@ -18,13 +18,13 @@
         @include link-styles;
         margin-right: 5px;
         li {
-          font-weight: 600;
+          @include link-font
         }
      }
     }
   }
   p {
     margin-right: 10px;
-    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
   }
 }

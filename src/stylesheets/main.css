@@ -35,8 +35,9 @@
   color: rgb(0, 0, 0);
 }
 .nav ul a li {
-  margin-right: 10px;
-  font-weight: 600;
+  margin-right: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
 }
 
 .footer {
@@ -59,9 +60,20 @@
   margin-right: 5px;
 }
 .footer .socials ul a li {
-  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
 }
 .footer p {
   margin-right: 10px;
-  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-flow: column nowrap;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
 }/*# sourceMappingURL=main.css.map */

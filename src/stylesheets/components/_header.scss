@@ -1,7 +1,8 @@
 // Header Component
 
-@import '../defaults/colors';
-@import'../defaults/link-decorations';
+@import '../defaults/_colors';
+@import '../defaults/_link-decorations';
+@import '../defaults/_text';
 
 .header {
   display: flex;
@@ -30,8 +31,8 @@
     a{
       @include link-styles;
       li {
-        margin-right: 10px;
-        font-weight: 600;
+        margin-right: 5px;
+        @include link-font;
       }
     }
   }

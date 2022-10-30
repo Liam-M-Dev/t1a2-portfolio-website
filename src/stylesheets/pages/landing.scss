@@ -1,0 +1,24 @@
+@import '../defaults/_colors';
+@import '../defaults/_layout';
+@import '../defaults/_text';
+
+main {
+  @include flex-col;
+  justify-content: space-between;
+  .heading {
+    @include headings;
+    margin: 8px;
+    padding-top: 10px;
+  }
+  img {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+  }
+  p {
+    @include paragraph;
+    margin: 0 8px 8px 32px;
+    text-align: right;
+    font-size: 1.2em;
+  }
+}
