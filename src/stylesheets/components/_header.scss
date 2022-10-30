@@ -1,0 +1,37 @@
+@import '../defaults/colors';
+@import'../defaults/link-decorations';
+
+
+.header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  background-color: $primary-color;
+  height: 100px;
+  .header-logo{
+    margin-left: 5px;
+    img {
+      width: 100px;
+      height: 100px;
+    }
+  }
+  
+}
+
+.nav{
+  margin-right: 5px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: flex-end;
+  ul {
+    display: flex;
+    flex-flow: row nowrap;
+    a{
+      @include link-styles;
+      li {
+        margin-right: 10px;
+      }
+    }
+  }
+}
