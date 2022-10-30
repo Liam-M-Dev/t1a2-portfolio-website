@@ -20,7 +20,6 @@
 }
 
 .nav {
-  margin-right: 5px;
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
@@ -37,4 +36,32 @@
 }
 .nav ul a li {
   margin-right: 10px;
+  font-weight: 600;
+}
+
+.footer {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-color: #D9D9D9;
+  height: 50px;
+}
+.footer .socials ul {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-left: 5px;
+}
+.footer .socials ul a {
+  text-decoration: none;
+  list-style: none;
+  color: rgb(0, 0, 0);
+  margin-right: 5px;
+}
+.footer .socials ul a li {
+  font-weight: 600;
+}
+.footer p {
+  margin-right: 10px;
+  font-weight: 600;
 }/*# sourceMappingURL=main.css.map */

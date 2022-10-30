@@ -1,0 +1,30 @@
+@import '../defaults/_colors';
+@import '../defaults/_link-decorations';
+@import '../defaults/_layout';
+
+
+
+.footer {
+  @include flex-row;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-color: $primary-color;
+  height: 50px;
+  .socials {
+    ul {
+      @include flex-row;
+      margin-left: 5px;
+      a{
+        @include link-styles;
+        margin-right: 5px;
+        li {
+          font-weight: 600;
+        }
+     }
+    }
+  }
+  p {
+    margin-right: 10px;
+    font-weight: 600;
+  }
+}
