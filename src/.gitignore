@@ -1,2 +1,2 @@
-./stylesheets/main.css.map
-./stylesheets/pages/*.css.map
+/stylesheets/main.css.map
+/stylesheets/pages/landing.css.map
