@@ -30,6 +30,7 @@ Design preferences are more focused into a minimalist approach.  (more to write 
 - HTML
 - SCSS/CSS
 - Wireframes - Figma
+- Gimp -Image resizing/modelling
 - Github - repo
 - Netlify - live website deployment
 
