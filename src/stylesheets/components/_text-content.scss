@@ -17,3 +17,30 @@
     font-size: 1em;
   }
 }
+
+
+/* Media queries for responsive changes */
+
+@media screen and (min-width: 500px) {
+  .heading {
+    font-size: 1.5em;
+    padding-top: 16px;
+    margin: 24px;
+  }
+
+  .mission-statement {
+    margin: 16px;
+      p {
+        font-size: 1.5em;
+      }
+  }
+}
+
+@media screen and (min-width: 1000px){
+  .heading {
+    margin: 32px;
+  }
+  .mission-statement {
+    margin: 32px;
+  }
+}

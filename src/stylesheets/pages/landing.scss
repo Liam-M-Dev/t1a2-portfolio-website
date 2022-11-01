@@ -5,56 +5,25 @@
 main {
   @include flex-col;
   justify-content: space-between;
-  .heading {
-    @include headings;
-    font-size: 1em;
-    margin: 16px;
-    padding-top: 10px;
-  }
   img {
     width: 70%;
     height: auto;
     margin: 0 auto;
   }
-  .mission-statement {
-    margin: 16px;
-    p{
-      @include paragraph;
-      text-align: right;
-      font-size: 1em;
-    }
-  }
 }
 
 @media screen and (min-width: 500px) {
   main {
-    .heading {
-      font-size: 1.5em;
-      padding-top: 16px;
-      margin: 24px;
-    }
     img {
       width: 50%;
-    }
-    .mission-statement {
-      margin: 16px;
-      p {
-        font-size: 1.5em;
-      }
     }
   }
 }
 
 @media screen and (min-width: 1000px){
   main {
-    .heading {
-      margin: 32px;
-    }
     img {
       width: 25%;
-    }
-    .mission-statement {
-      margin: 32px;
     }
   }
 }
