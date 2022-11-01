@@ -39,6 +39,11 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
 }
+.nav ul a:hover {
+  background-color: black;
+  color: white;
+  transition: 2s;
+}
 
 @media screen and (min-width: 500px) {
   .header {
@@ -86,6 +91,11 @@
 .socials ul a li {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
+}
+.socials ul a:hover {
+  background-color: black;
+  color: white;
+  transition: 2s;
 }
 
 @media screen and (min-width: 500px) {
@@ -179,6 +189,7 @@
   .project-card {
     width: 15em;
     height: 300px;
+    box-shadow: 2px 4px;
   }
   .front {
     height: 30%;

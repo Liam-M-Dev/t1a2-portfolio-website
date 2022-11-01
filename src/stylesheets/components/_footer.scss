@@ -26,7 +26,12 @@
       li {
         @include link-font
       }
-   }
+      &:hover {
+        background-color: black;
+        color: white;
+        transition: 2s;
+      }
+    }
   }
 }
 
