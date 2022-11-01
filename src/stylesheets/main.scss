@@ -10,13 +10,21 @@
 //footer component
 @import './components/_footer';
 
+// Project card components
+@import './components/project-card';
+
+// All text content related components
+@import './components/text-content';
+
+
 body {
   @include flex-col;
   min-height: 100vh;
 }
 
 main {
+  @include flex-col;
   flex-grow: 1;
+  justify-content: space-between
 }
 
-@import './components/project-card';

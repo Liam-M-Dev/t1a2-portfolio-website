@@ -1,0 +1,19 @@
+@import '../defaults/text';
+
+
+// Text content applies for all page headings
+.heading {
+  @include headings;
+  font-size: 1em;
+  margin: 16px;
+  padding-top: 10px;
+}
+
+.mission-statement {
+  margin: 16px;
+  p{
+    @include paragraph;
+    text-align: right;
+    font-size: 1em;
+  }
+}
