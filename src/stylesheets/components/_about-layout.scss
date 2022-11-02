@@ -1,0 +1,36 @@
+@import '../defaults/default-comb';
+
+.about {
+  @include flex-row-wrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 auto;
+  padding: 5px;
+  p{
+    background-color: $container-color;
+  }
+  figure{
+    margin: 0 auto;
+    img {
+      max-width: 16em;
+    }
+  }
+  
+}
+
+.interests {
+  @include flex-row-wrap;
+  padding: 5px;
+  margin-bottom: 10px;
+  p{
+    text-align: right;
+    background-color: $container-color;
+  }
+  figure{
+    margin: 0 auto;
+
+    img{
+      max-width: 16em;
+    }
+  }
+}

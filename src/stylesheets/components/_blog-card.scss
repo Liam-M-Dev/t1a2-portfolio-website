@@ -7,6 +7,10 @@
   align-items: center;
   margin: 10px auto;
   padding: 20px;
+  a{
+    text-decoration: none;
+    color: black;
+  }
 }
 
 .blog-card {
@@ -19,7 +23,6 @@
   background-color: $primary-color;
   border-radius: 15px;
   box-shadow: 1px 2px;
-  
   h2 {
     @include headings;
     text-decoration: underline;

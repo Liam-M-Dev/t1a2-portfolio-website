@@ -112,6 +112,49 @@
     font-size: 1.5em;
   }
 }
+/* About layout component */
+/* Graphical component for buttons used in page */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.about {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 auto;
+  padding: 5px;
+}
+.about p {
+  background-color: #f1e5a1;
+}
+.about figure {
+  margin: 0 auto;
+}
+.about figure img {
+  max-width: 16em;
+}
+
+.interests {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.interests p {
+  text-align: right;
+  background-color: #f1e5a1;
+}
+.interests figure {
+  margin: 0 auto;
+}
+.interests figure img {
+  max-width: 16em;
+}
+
 .project-card-container {
   display: flex;
   flex-flow: column nowrap;
@@ -229,6 +272,18 @@
   font-size: 1em;
 }
 
+.about p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+.interests p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+}
+
 /* Media queries for responsive changes */
 @media screen and (min-width: 500px) {
   .heading {
@@ -259,6 +314,10 @@
   align-items: center;
   margin: 10px auto;
   padding: 20px;
+}
+.blog-container a {
+  text-decoration: none;
+  color: black;
 }
 
 .blog-card {
@@ -329,33 +388,44 @@
     font-size: 1.5em;
   }
 }
+/* Graphical component for buttons used in page */
 .contact-container {
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
   margin-bottom: 10em;
+  margin-top: 10px;
   gap: 4em;
   padding: 10px;
 }
-.contact-container h2 {
+
+.contact-details {
+  background-color: #f1e5a1;
+  padding-bottom: 10px;
+}
+.contact-details h2 {
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
   font-size: 2.5em;
   margin-bottom: 4px;
+  margin-left: 4px;
+  transform: skew(-25deg);
 }
-.contact-container p {
+.contact-details p {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 1.15em;
   margin-left: 4px;
 }
 
+/* Text component form */
 form {
   display: flex;
   flex-flow: column nowrap;
-  max-width: 1em;
-  padding: 10px 0 10px 0;
   max-width: 22em;
   margin-left: 5px;
+  background-color: #f1e5a1;
+  padding: 1em;
 }
 form label[for=name], form label[for=email], form label[for=message] {
   font-family: "Montserrat", sans-serif;
@@ -366,10 +436,13 @@ form input[type=text], form input[type=email] {
   padding: 10px;
   margin-bottom: 5px;
   border-radius: 1em;
+  border: 2px solid #9a9a9a;
+  font-size: 1em;
 }
 form textarea[name=message] {
   margin-top: 5px;
   border-radius: 1em;
+  border: 2px solid #9a9a9a;
   padding: 2px;
   font-family: "Montserrat", sans-serif;
   font-size: 1em;
@@ -385,6 +458,46 @@ form button {
   border: 2px solid #a2a2de;
 }
 
+@media screen and (min-width: 500px) {
+  .contact-container {
+    margin: 100px auto;
+    gap: 1em;
+  }
+  .contact-details {
+    max-width: 22em;
+    height: 40em;
+  }
+  .contact-details h2 {
+    font-size: 3.5em;
+    margin-bottom: 24px;
+  }
+  .contact-details p {
+    font-size: 1.5em;
+  }
+  form {
+    justify-content: flex-end;
+  }
+  form label[for=name], form label[for=email], form label[for=message] {
+    font-size: 1.5em;
+  }
+  form input[type=text], form input[type=email] {
+    font-size: 1.5em;
+  }
+  form textarea[name=message] {
+    font-size: 1.5em;
+  }
+  form button {
+    font-size: 1.5em;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .contact-details {
+    max-width: 30em;
+  }
+  form {
+    max-width: 30em;
+  }
+}
 body {
   display: flex;
   flex-flow: column nowrap;

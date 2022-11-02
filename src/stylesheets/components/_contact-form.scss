@@ -1,17 +1,27 @@
 @import '../defaults/_text';
 @import '../defaults/_layout';
 @import '../defaults/_button';
+@import '../defaults/colors';
 
 .contact-container {
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
   margin-bottom: 10em;
+  margin-top: 10px;
   gap: 4em;
   padding: 10px;
+}
+
+.contact-details {
+  background-color: $container-color;
+  padding-bottom: 10px;
   h2 {
     @include headings;
     font-size: 2.5em;
     margin-bottom: 4px;
+    margin-left: 4px;
+    transform: skew(-25deg);
   }
   p {
     @include paragraph;
@@ -20,12 +30,13 @@
   }
 }
 
+/* Text component form */
 form {
   @include flex-col;
-  max-width: 1em;
-  padding: 10px 0 10px 0;
   max-width: 22em;
   margin-left: 5px;
+  background-color: $container-color;
+  padding: 1em;
   label[for=name], label[for=email], label[for=message] {
     @include form-titles;
     font-size: 1.3em;
@@ -34,15 +45,66 @@ form {
     padding: 10px;
     margin-bottom: 5px;
     border-radius: 1em;
+    border: 2px solid $primary-color;
+    font-size: 1em;
   }
   textarea[name=message] {
     margin-top: 5px;
     border-radius: 1em;
+    border: 2px solid $primary-color;
     padding: 2px;
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
   }
   button {
     @include default-button
+  }
+}
+
+
+
+@media screen and (min-width: 500px) {
+  .contact-container {
+    margin: 100px auto;
+    gap: 1em;
+  }
+
+  .contact-details {
+    max-width: 22em;
+    height: 40em;
+    h2 {
+      font-size: 3.5em;
+      margin-bottom: 24px;
+    }
+    p {
+      font-size: 1.5em;
+    }
+  }
+
+  form {
+    justify-content: flex-end;
+    label[for=name], label[for=email], label[for=message]{
+      font-size: 1.5em;
+    }
+    input[type=text], input[type=email]{
+      font-size: 1.5em;
+    }
+    textarea[name=message]{
+      font-size: 1.5em;
+    }
+    button {
+      font-size: 1.5em;
+    }
+  }
+
+}
+
+@media screen and (min-width: 1000px) {
+  .contact-details {
+    max-width: 30em;
+  }
+
+  form {
+    max-width: 30em;
   }
 }

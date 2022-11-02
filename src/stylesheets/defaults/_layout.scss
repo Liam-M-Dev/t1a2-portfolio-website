@@ -9,3 +9,8 @@
   display: flex;
   flex-flow: column nowrap;
 }
+
+@mixin flex-row-wrap {
+  display: flex;
+  flex-flow: row wrap;
+}
