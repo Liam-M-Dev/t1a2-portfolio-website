@@ -5,6 +5,11 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+@mixin sub-heading {
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+}
+
 @mixin link-font {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;

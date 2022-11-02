@@ -1,0 +1,31 @@
+@import '../defaults/layout';
+@import '../defaults/text';
+
+.blog-container {
+  @include flex-col;
+  justify-content: space-evenly;
+  margin: 10px auto;
+  padding: 20px;
+}
+
+.blog-card {
+  display: flex;
+  flex-flow: row wrap;
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: $primary-color;
+  border-radius: 15px;
+  gap: 5px;
+  h2 {
+    @include headings;
+    text-decoration: underline;
+  }
+  h3 {
+    @include sub-heading;
+    text-align: right;
+    width: 50%;
+  }
+  p{
+    @include paragraph;
+  }
+}

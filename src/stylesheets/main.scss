@@ -16,6 +16,8 @@
 // All text content related components
 @import './components/text-content';
 
+// 
+@import './components/blog-card';
 
 body {
   @include flex-col;
