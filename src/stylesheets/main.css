@@ -329,6 +329,62 @@
     font-size: 1.5em;
   }
 }
+.contact-container {
+  display: flex;
+  flex-flow: row wrap;
+  margin-bottom: 10em;
+  gap: 4em;
+  padding: 10px;
+}
+.contact-container h2 {
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5em;
+  margin-bottom: 4px;
+}
+.contact-container p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.15em;
+  margin-left: 4px;
+}
+
+form {
+  display: flex;
+  flex-flow: column nowrap;
+  max-width: 1em;
+  padding: 10px 0 10px 0;
+  max-width: 22em;
+  margin-left: 5px;
+}
+form label[for=name], form label[for=email], form label[for=message] {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.3em;
+}
+form input[type=text], form input[type=email] {
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 1em;
+}
+form textarea[name=message] {
+  margin-top: 5px;
+  border-radius: 1em;
+  padding: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+}
+form button {
+  width: 10em;
+  padding: 1em;
+  margin-top: 20px;
+  align-self: center;
+  background-color: #a2a2de;
+  font-size: 1em;
+  border-radius: 5em;
+  border: 2px solid #a2a2de;
+}
+
 body {
   display: flex;
   flex-flow: column nowrap;

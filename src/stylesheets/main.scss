@@ -19,6 +19,8 @@
 // 
 @import './components/blog-card';
 
+@import './components/contact-form';
+
 body {
   @include flex-col;
   min-height: 100vh;

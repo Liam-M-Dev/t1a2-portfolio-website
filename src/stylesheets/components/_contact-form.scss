@@ -1,0 +1,48 @@
+@import '../defaults/_text';
+@import '../defaults/_layout';
+@import '../defaults/_button';
+
+.contact-container {
+  display: flex;
+  flex-flow: row wrap;
+  margin-bottom: 10em;
+  gap: 4em;
+  padding: 10px;
+  h2 {
+    @include headings;
+    font-size: 2.5em;
+    margin-bottom: 4px;
+  }
+  p {
+    @include paragraph;
+    font-size: 1.15em;
+    margin-left: 4px;
+  }
+}
+
+form {
+  @include flex-col;
+  max-width: 1em;
+  padding: 10px 0 10px 0;
+  max-width: 22em;
+  margin-left: 5px;
+  label[for=name], label[for=email], label[for=message] {
+    @include form-titles;
+    font-size: 1.3em;
+  }
+  input[type=text], input[type=email] {
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 1em;
+  }
+  textarea[name=message] {
+    margin-top: 5px;
+    border-radius: 1em;
+    padding: 2px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+  }
+  button {
+    @include default-button
+  }
+}
