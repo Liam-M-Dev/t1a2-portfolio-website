@@ -55,7 +55,7 @@
   }
   .nav ul a li {
     margin-right: 16px;
-    font-size: 1.6em;
+    font-size: 1.2em;
   }
 }
 @media screen and (min-width: 1000px) {
@@ -103,15 +103,32 @@
     height: 56px;
   }
   .footer p {
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
   .socials ul a {
     margin-right: 16px;
   }
   .socials li {
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
 }
+/* Image components */
+.landing-cover {
+  width: 20em;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* Styling for about me page image */
+.about-image {
+  margin: 0 auto;
+}
+.about-image img {
+  max-width: 12em;
+  border-radius: 15%;
+  box-shadow: 2px 4px 6px;
+}
+
 /* About layout component */
 /* Graphical component for buttons used in page */
 * {
@@ -126,41 +143,38 @@
   justify-content: flex-start;
   align-items: center;
   margin: 0 auto;
-  padding: 5px;
-}
-.about p {
-  background-color: #f1e5a1;
-}
-.about figure {
-  margin: 0 auto;
-}
-.about figure img {
-  max-width: 16em;
+  padding: 2em;
 }
 
 .interests {
   display: flex;
   flex-flow: row wrap;
-  padding: 5px;
-  margin-bottom: 10px;
-}
-.interests p {
-  text-align: right;
-  background-color: #f1e5a1;
-}
-.interests figure {
-  margin: 0 auto;
-}
-.interests figure img {
-  max-width: 16em;
+  padding: 2em;
 }
 
+.about-text, .interests-text {
+  background-color: #f1e5a1;
+  margin: 1em;
+}
+
+/* Condenses text component to allow image in same row*/
+@media screen and (min-width: 500px) {
+  .about-text, .interests-text {
+    width: 50%;
+    height: 50%;
+  }
+}
 .project-card-container {
   display: flex;
   flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
   gap: 20px;
   margin-top: 10px;
   margin-bottom: 30px;
+}
+.project-card-container a {
+  color: black;
 }
 
 /* Graphical component of project cards */
@@ -172,6 +186,7 @@
   padding: 10px;
   border: 2px solid #9a9a9a;
   border-radius: 5px;
+  box-shadow: 2px 4px 6px;
 }
 
 .back {
@@ -232,7 +247,6 @@
   .project-card {
     width: 15em;
     height: 300px;
-    box-shadow: 2px 4px;
   }
   .front {
     height: 30%;
@@ -282,6 +296,7 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 1em;
+  text-align: right;
 }
 
 /* Media queries for responsive changes */

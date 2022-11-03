@@ -5,32 +5,23 @@
   justify-content: flex-start;
   align-items: center;
   margin: 0 auto;
-  padding: 5px;
-  p{
-    background-color: $container-color;
-  }
-  figure{
-    margin: 0 auto;
-    img {
-      max-width: 16em;
-    }
-  }
-  
+  padding: 2em;
 }
 
 .interests {
   @include flex-row-wrap;
-  padding: 5px;
-  margin-bottom: 10px;
-  p{
-    text-align: right;
-    background-color: $container-color;
-  }
-  figure{
-    margin: 0 auto;
+  padding: 2em;
+}
 
-    img{
-      max-width: 16em;
-    }
+.about-text, .interests-text {
+  background-color: $container-color;
+  margin: 1em;
+}
+
+/* Condenses text component to allow image in same row*/
+@media screen and (min-width: 500px) {
+  .about-text, .interests-text {
+    width: 50%;
+    height: 50%;
   }
 }
