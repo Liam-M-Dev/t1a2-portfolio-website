@@ -126,6 +126,10 @@
   border-radius: 15%;
 }
 
+.blog-image {
+  margin: 20px 0 20px 0;
+}
+
 /* About layout component */
 /* Graphical component for buttons used in page */
 * {
@@ -141,16 +145,22 @@
   align-items: center;
   margin: 0 auto;
   padding: 2em;
+  max-width: 50em;
 }
 
 .interests {
   display: flex;
   flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
   padding: 2em;
+  margin: 0 auto;
+  max-width: 50em;
 }
 
 .about-text, .interests-text {
   background-color: rgba(162, 162, 222, 0.4352941176);
+  padding: 20px;
   margin: 1em;
 }
 
@@ -159,6 +169,7 @@
   .about-text, .interests-text {
     width: 50%;
     height: 50%;
+    max-width: 500px;
   }
 }
 .project-card-container {
@@ -315,6 +326,12 @@
   font-size: 1em;
 }
 
+.blog-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+}
+
 /* Media queries for responsive changes */
 @media screen and (min-width: 500px) {
   .heading {
@@ -419,6 +436,32 @@
     font-size: 1.5em;
   }
 }
+/* Blog post layout */
+/* Graphical component for buttons used in page */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 1em;
+  max-width: 500px;
+}
+.container h1 {
+  margin-right: 2em;
+}
+
+.blog-text {
+  background-color: rgba(162, 162, 222, 0.4352941176);
+  margin-top: 2px;
+}
+
 /* Graphical component for buttons used in page */
 .contact-container {
   display: flex;

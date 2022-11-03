@@ -1,2 +1,18 @@
 @import '../defaults/default-comb';
 
+.container {
+  @include flex-row-wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 1em;
+  max-width: 500px;
+  h1 {
+    margin-right: 2em;
+  }
+}
+
+.blog-text {
+  background-color: $container-color;
+  margin-top: 2px;
+}

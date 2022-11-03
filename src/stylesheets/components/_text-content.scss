@@ -44,6 +44,11 @@
   font-size: 1em;
 }
 
+.blog-text {
+  @include paragraph;
+  font-size: 1em;
+}
+
 /* Media queries for responsive changes */
 
 @media screen and (min-width: 500px) {
