@@ -1,4 +1,4 @@
-@import '../defaults/text';
+@import '../defaults/default-comb';
 
 
 // Text content applies for all page headings
@@ -33,6 +33,16 @@
   }
 }
 
+
+.blog-heading {
+  @include headings;
+  font-size: 1.5em;
+}
+
+.blog-date {
+  @include sub-heading;
+  font-size: 1em;
+}
 
 /* Media queries for responsive changes */
 

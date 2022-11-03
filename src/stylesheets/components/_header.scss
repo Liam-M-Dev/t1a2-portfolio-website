@@ -10,15 +10,10 @@
   justify-content: space-between;
   background-color: $primary-color;
   height: 100px;
-  .header-logo{
-    margin-left: 5px;
-    img {
-      width: 100px;
-      height: 100px;
-    }
-  }
   
 }
+  
+
 
 .nav{
   display: flex;
@@ -48,12 +43,12 @@
 
   .header{
     height: 150px;
-    .header-logo{
-      img{
-        width: 150px;
-        height: 150px;
-      }
-    }
+    // .header-logo{
+    //   img{
+    //     width: 150px;
+    //     height: 150px;
+    //   }
+    
   }
   
   .nav {

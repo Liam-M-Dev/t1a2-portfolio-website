@@ -11,13 +11,6 @@
   background-color: #9a9a9a;
   height: 100px;
 }
-.header .header-logo {
-  margin-left: 5px;
-}
-.header .header-logo img {
-  width: 100px;
-  height: 100px;
-}
 
 .nav {
   display: flex;
@@ -47,10 +40,6 @@
 
 @media screen and (min-width: 500px) {
   .header {
-    height: 150px;
-  }
-  .header .header-logo img {
-    width: 150px;
     height: 150px;
   }
   .nav ul a li {
@@ -113,20 +102,28 @@
   }
 }
 /* Image components */
+.header-logo {
+  margin-left: 5px;
+}
+.header-logo img {
+  width: 5em;
+  height: auto;
+}
+
 .landing-cover {
   width: 20em;
   height: auto;
   margin: 0 auto;
 }
 
-/* Styling for about me page image */
+/* Styling for about me page images */
 .about-image {
   margin: 0 auto;
 }
 .about-image img {
   max-width: 12em;
+  border: 5px dashed rgba(162, 162, 222, 0.4352941176);
   border-radius: 15%;
-  box-shadow: 2px 4px 6px;
 }
 
 /* About layout component */
@@ -153,7 +150,7 @@
 }
 
 .about-text, .interests-text {
-  background-color: #f1e5a1;
+  background-color: rgba(162, 162, 222, 0.4352941176);
   margin: 1em;
 }
 
@@ -268,6 +265,13 @@
     padding: 5px;
   }
 }
+/* Graphical component for buttons used in page */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .heading {
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
@@ -297,6 +301,18 @@
   font-weight: 400;
   font-size: 1em;
   text-align: right;
+}
+
+.blog-heading {
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5em;
+}
+
+.blog-date {
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
 }
 
 /* Media queries for responsive changes */
@@ -344,7 +360,7 @@
   max-width: 16em;
   background-color: #9a9a9a;
   border-radius: 15px;
-  box-shadow: 1px 2px;
+  box-shadow: 1px 2px 4px;
 }
 .blog-card h2 {
   font-weight: 400;
@@ -415,7 +431,7 @@
 }
 
 .contact-details {
-  background-color: #f1e5a1;
+  background-color: rgba(162, 162, 222, 0.4352941176);
   padding-bottom: 10px;
 }
 .contact-details h2 {
@@ -439,7 +455,7 @@ form {
   flex-flow: column nowrap;
   max-width: 22em;
   margin-left: 5px;
-  background-color: #f1e5a1;
+  background-color: rgba(162, 162, 222, 0.4352941176);
   padding: 1em;
 }
 form label[for=name], form label[for=email], form label[for=message] {
