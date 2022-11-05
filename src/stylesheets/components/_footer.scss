@@ -1,7 +1,6 @@
-@import '../defaults/_colors';
-@import '../defaults/_link-decorations';
-@import '../defaults/_layout';
-@import '../defaults/_text';
+/* Footer component */
+
+@import '../defaults/default-comb';
 
 
 .footer {
@@ -10,6 +9,7 @@
   align-items: flex-end;
   background-color: $primary-color;
   height: 50px;
+  min-width: 355px;
   p {
     margin-right: 10px;
     font-family: 'Montserrat', sans-serif;
@@ -35,8 +35,7 @@
   }
 }
 
-
-// Media queries for device compatibility
+/* media queries for device compatibility */
 
 @media screen and (min-width: 500px) {
   .footer {

@@ -1,34 +1,34 @@
-// default settings
-@import './defaults/_reset';
-@import './defaults/_colors';
+/* Default settings */
+@import './defaults/default-comb';
 
 
-//header component
+
 @import './components/_header';
 
-//footer component
+
 @import './components/_footer';
 
-/* Image components */
+
 @import './components/images';
 
-/* About layout component */
+
 @import './components/about-layout';
 
-// Project card components
+
 @import './components/project-card';
 
-// All text content related components
+
 @import './components/text-content';
 
-// 
+
 @import './components/blog-card';
 
-/* Blog post layout */
 @import './components/blog';
 
 @import './components/contact-form';
 
+
+/* Body layout stylings */
 body {
   @include flex-col;
   min-height: 100vh;

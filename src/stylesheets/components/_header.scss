@@ -1,8 +1,6 @@
-// Header Component
+/* Header component */
 
-@import '../defaults/_colors';
-@import '../defaults/_link-decorations';
-@import '../defaults/_text';
+@import '../defaults/default-comb';
 
 .header {
   display: flex;
@@ -10,7 +8,7 @@
   justify-content: space-between;
   background-color: $primary-color;
   height: 100px;
-  
+  min-width: 355px;
 }
   
 
