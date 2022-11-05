@@ -26,6 +26,7 @@ main {
   justify-content: space-between;
   background-color: #9a9a9a;
   height: 100px;
+  min-width: 355px;
 }
 
 .nav {
@@ -63,6 +64,7 @@ main {
   align-items: flex-end;
   background-color: #9a9a9a;
   height: 50px;
+  min-width: 355px;
 }
 .footer p {
   margin-right: 10px;
