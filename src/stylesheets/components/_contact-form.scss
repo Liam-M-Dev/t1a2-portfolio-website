@@ -1,7 +1,6 @@
-@import '../defaults/_text';
-@import '../defaults/_layout';
-@import '../defaults/_button';
-@import '../defaults/colors';
+/* Contact form component */
+
+@import '../defaults/default-comb';
 
 .contact-container {
   display: flex;
@@ -62,7 +61,7 @@ form {
 }
 
 
-
+/* Media queries */
 @media screen and (min-width: 500px) {
   .contact-container {
     margin: 100px auto;

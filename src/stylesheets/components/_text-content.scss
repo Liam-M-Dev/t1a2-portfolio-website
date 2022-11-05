@@ -1,7 +1,7 @@
 @import '../defaults/default-comb';
 
 
-// Text content applies for all page headings
+/* Text content applies for all page headings */
 .heading {
   @include headings;
   font-size: 1em;

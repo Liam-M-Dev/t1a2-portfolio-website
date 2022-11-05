@@ -1,5 +1,6 @@
-@import '../defaults/layout';
-@import '../defaults/text';
+/* Blog page components */
+
+@import '../defaults/default-comb';
 
 .blog-container {
   @include flex-col;
@@ -13,6 +14,7 @@
   }
 }
 
+/* Blog card graphical components */
 .blog-card {
   display: flex;
   flex-flow: row wrap;
@@ -61,6 +63,8 @@
   }
   
 }
+
+/* Media queries */
 
 @media screen and (min-width: 1000px) {
   .blog-container {
