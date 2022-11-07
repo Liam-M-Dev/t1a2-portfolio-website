@@ -17,7 +17,7 @@ The purpose of my web developer portfolio is to design and implement a website p
 
 ### Target Audience
 
-My target audience is mainly trying to appeal towards  
+My target audience for this project is targeted towards potential front end developers but also advertises that I am studying full stack development with the intention of being able to do both front and back end development when I graduate from the bootcamp.
 ***
 
 ### Tech Stack
@@ -245,3 +245,23 @@ form {
 ***
 
 ### Screenshots
+
+#### Wireframe example  
+
+![Wire frame home page](./docs/wireframes/home-desk.png)
+
+![Wire frame home page mobile](./docs/wireframes/home-mob.png)
+
+![wire frame home page tablet](./docs/wireframes/home-tab.png)
+
+[For a comprehensive looks at wireframes](./docs/wireframes/)
+
+#### Website screenshots  
+
+![Website home page](./docs/website-screenshots/home-desk.png)
+
+![Website home page mobile](./docs/website-screenshots/home-mob.png)
+
+![Website home page tablet](./docs/website-screenshots/home-tab.png)  
+
+[For a comprehensive look at screenshots](./docs/website-screenshots/)  
