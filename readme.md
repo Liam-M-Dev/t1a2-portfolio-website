@@ -17,14 +17,14 @@ The purpose of my web developer portfolio is to design and implement a website p
 
 ### Target Audience
 
-My target audience is mainly trying to appeal towards 
+My target audience is mainly trying to appeal towards  
 ***
 
 ### Tech Stack
 
 - HTML
 - SCSS/CSS
-- Wireframes - Figma
+- Wire frames - Figma
 - Gimp -Image resizing/modelling
 - Github - repo
 - Netlify - live website deployment
@@ -40,12 +40,15 @@ Utilizing various techniques I was able to bring some solid functionality/featur
 - Color scheme that is clear and inclusive
 - Page layout that is readable and easy to follow
 - Logo that links back to home page
-- Contact form 
+- Contact form  
 - Clear imagery
+- Link to my available resume
+- Project cards that link to outside pages of projects.
+- Blog cards that link to the blog posts
 
-### HTML
+### HTML and SCSS
 
-With HTML I have used semantic html to make the pages easier to read for developers and people with screen readers. For example within the about page I have utilized ```<section>```, ```<article>```, ```<figure>``` and presentational tags to communicate the content  
+With HTML I have used semantic html to make the pages easier to read for developers and people with screen readers. For example within the about page I have utilized ```<section>```, ```<article>```, ```<figure>``` and presentational tags to communicate the content.
 
 ```html
 <section class="about">
@@ -60,6 +63,71 @@ With HTML I have used semantic html to make the pages easier to read for develop
           <img src="../images/myself-patti.jpg" alt="Myself with my cat patti">
       </figure>
 </section>
+```
+
+This was the first time I have used SCSS with coding and have found it incredibly helpful and enjoyable to learn. I found using different tools such as partial stylesheets, mixins and variables made it a lot easier to keep my code clean and understandable.  
+I created different mixins for text and layout, although a lot of the text are repeated I found it good practice because if I wanted to change the font for a component I could just change that in the mixin section and it would apply to every text component that has that mixin. some examples of my scss are:  
+
+```scss
+@mixin sub-heading {
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+}
+
+@mixin link-font {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+@mixin paragraph {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+$primary-color: #9a9a9a;
+
+$container-color: #a2a2de6f;
+
+$button-color: #a2a2de;
+
+@mixin default-button {
+  width: 10em;
+    padding: 1em;
+    margin-top: 20px;
+    align-self: center;
+    background-color: $button-color;
+    font-size: 1em;
+    border-radius: 5em;
+    border: 2px solid $button-color;
+}
+
+```
+
+Styling for my navbar was really interesting for me as it helped me understand nesting
+
+```scss
+.nav{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: flex-end;
+  ul {
+    display: flex;
+    flex-flow: row nowrap;
+    a{
+      @include link-styles;
+      li {
+        margin-right: 5px;
+        @include link-font;
+      }
+      &:hover {
+          background-color: black;
+          color: white;
+          transition: 2s;
+        }
+    }
+  }
+}
 ```
 
 For the project cards I wrapped an ```<a>``` around ```<article>``` and ```<div>``` containers so that I could set the background image as the project image using SCSS.  
@@ -167,6 +235,7 @@ form {
   }
 }
 ```
+
 ***
 
 ### Sitemap
