@@ -246,22 +246,99 @@ form {
 
 ### Screenshots
 
-#### Wireframe example  
+Home page wireframe desktop
 
-![Wire frame home page](./docs/wireframes/home-desk.png)
+![wireframe homepage desk](./docs/wireframes/home-deskwf.png)  
 
-![Wire frame home page mobile](./docs/wireframes/home-mob.png)
+Home page actual desktop  
 
-![wire frame home page tablet](./docs/wireframes/home-tab.png)
+![Homepage desktop](./docs/website-screenshots/home-desk.png)  
 
-[For a comprehensive looks at wireframes](./docs/wireframes/)
+Home page wireframe tablet  
 
-#### Website screenshots  
+![Wireframe homepage tablet](./docs/wireframes/home-tabwf.png)
 
-![Website home page](./docs/website-screenshots/home-desk.png)
+Home page actual tablet  
 
-![Website home page mobile](./docs/website-screenshots/home-mob.png)
+![Homepage tablet](./docs/website-screenshots/home-tab.png)  
 
-![Website home page tablet](./docs/website-screenshots/home-tab.png)  
+About page wireframe desktop  
 
-[For a comprehensive look at screenshots](./docs/website-screenshots/)  
+![Wireframe about desktop](./docs/wireframes/about-deskwf.png)  
+
+About page actual desktop  
+
+![About desktop](./docs/website-screenshots/about-laptop.png) 
+
+About page wireframe tablet  
+
+![Wireframe about tablet](./docs/wireframes/about-tabwf.png)
+
+About page actual tablet  
+
+![About tablet](./docs/website-screenshots/about-tablet.png)  
+
+Blog page wireframe desktop  
+
+![Wireframe blog desktop](./docs/wireframes/blog-deskwf.png)
+
+Blog page actual desktop  
+
+![Blog desktop](./docs/website-screenshots/blog-laptop1.png)
+
+Blog page wireframe mobile  
+
+![Wireframe blog mobile](./docs/wireframes/blog-mobwf.png)
+
+Blog page actual mobile  
+
+![Blog mobile](./docs/website-screenshots/blog-mob1.png)  
+
+Blog post wireframe mobile  
+
+![Wireframe blog post mobile](./docs/wireframes/bpost-mobwf.png)
+
+Blog post actual mobile
+
+![Blog post mobile](./docs/website-screenshots/bpost-mob.png)
+
+Blog post wireframe tablet  
+
+![Wireframe blog post tablet](./docs/wireframes/bpost-tabwf.png)
+
+Blog post actual tablet  
+
+![Blog post tablet](./docs/website-screenshots/bpost-tab.png)
+
+Project page wireframe mobile  
+
+![Wireframe project mobile](./docs/wireframes/pro-mobwf.png)
+
+Project page actual mobile  
+
+![Project mobile](./docs/website-screenshots/pro-mob1.png)
+![Project mobile 2](./docs/website-screenshots/pro-mob2.png)
+
+Project page wireframe tablet
+
+![Wireframe project tablet](./docs/wireframes/project-tabwf.png)
+
+Project page actual tablet  
+
+![Project tablet](./docs/website-screenshots/pro-tablet.png)
+
+Contact page wireframe desktop  
+
+![Wireframe contact page desktop](./docs/wireframes/contact-deskwf.png)
+
+Contact page actual desktop  
+
+![Contact page desktop](./docs/website-screenshots/contact-laptop.png)
+
+Contact page wireframe mobile  
+
+![Wireframe Contact page mobile](./docs/wireframes/contact-mobwf.png)
+
+Contact page actual mobile  
+
+![Contact page mobile](./docs/website-screenshots/contact-mob.png)
