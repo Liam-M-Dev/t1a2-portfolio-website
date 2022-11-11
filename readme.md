@@ -248,7 +248,7 @@ form {
 
 Home page wireframe desktop
 
-![wireframe homepage desk](./docs/wireframes/home-deskwf.png)  
+![Wireframe homepage desk](./docs/wireframes/home-deskwf.png)  
 
 Home page actual desktop  
 
@@ -268,7 +268,7 @@ About page wireframe desktop
 
 About page actual desktop  
 
-![About desktop](./docs/website-screenshots/about-laptop.png) 
+![About desktop](./docs/website-screenshots/about-laptop.png)  
 
 About page wireframe tablet  
 
@@ -341,4 +341,4 @@ Contact page wireframe mobile
 
 Contact page actual mobile  
 
-![Contact page mobile](./docs/website-screenshots/contact-mob.png)
+![Contact page mobile](./docs/website-screenshots/contact-mob.png)  
