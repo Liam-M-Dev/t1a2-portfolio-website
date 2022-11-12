@@ -1,6 +1,6 @@
-# General Documentation of project WIP
+# General Documentation of project
 
-## Liam Massey  
+## Liam Massey  T1A2-Portfolio
 
 ***
 
@@ -9,6 +9,8 @@
 [Github repo](https://github.com/Liam-M-Dev/t1a2-portfolio-website)
 
 [Netlify live site](https://liam-m-t1a2.netlify.app/)
+
+[Video presentation](https://youtu.be/bYZPDIRZKNg)
 ***
 
 ### Purpose

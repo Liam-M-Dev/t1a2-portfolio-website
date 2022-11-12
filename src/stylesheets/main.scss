@@ -2,29 +2,31 @@
 @import './defaults/default-comb';
 
 
-
+// Header component
 @import './components/_header';
 
-
+// Footer component
 @import './components/_footer';
 
-
+// Image components
 @import './components/images';
 
-
+// About layout
 @import './components/about-layout';
 
-
+// Project card component
 @import './components/project-card';
 
-
+// Text components
 @import './components/text-content';
 
-
+// Blog card components
 @import './components/blog-card';
 
+// Blog layout
 @import './components/blog';
 
+// Contact form components and layout
 @import './components/contact-form';
 
 
