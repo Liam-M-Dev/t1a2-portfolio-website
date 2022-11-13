@@ -10,7 +10,7 @@
 
 [Netlify live site](https://liam-m-t1a2.netlify.app/)
 
-[Video presentation](https://youtu.be/bYZPDIRZKNg)
+[Video presentation](https://www.youtube.com/watch?v=3uNmHYzOWDM)
 ***
 
 ### Purpose
